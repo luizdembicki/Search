@@ -1,0 +1,157 @@
+.Container
+{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.LinkBar
+{
+    padding: 6px;
+    font-size: small;
+}
+
+a
+{
+    color: rgb(61, 61, 61);
+    text-decoration: none;
+}
+
+#LinkBar
+{   
+    flex-direction: row;
+    padding-left: 2%;
+    margin: 0.1%;
+    margin-left: auto;
+
+}
+
+#Logo
+{
+    padding-top: 7%;
+    justify-content: center;
+    align-items: center;
+    margin: 3%;
+}
+
+#Search
+{   
+    justify-self: center;
+    align-items: center;
+}
+
+#SearchBar
+{
+    margin-left: 5px;
+    width: 550px;
+    padding: 12px;
+    border-radius: 25px;
+    border-color: rgb(184, 178, 178);
+    border-style: solid;
+    border-width: 1px;
+}
+
+#SearchSubmit
+{
+    background-color: rgb(248, 248, 248);
+    color: rgb(59, 59, 59);
+    font-size: 14px;  
+    padding: 2%;
+    margin-left: 120px;
+    border-style: none;
+}
+
+#SearchLucky
+{
+    background-color: rgb(248, 248, 248);
+    color: rgb(59, 59, 59);
+    font-size: 14px;  
+    padding: 2%;
+    border-style: none;
+    margin-left: 30px;
+}
+
+#ImgSearchSubmit
+{
+    background-color: rgb(252, 252, 252);
+    font-size: large;
+    border-style: none;
+    cursor: pointer;
+}
+
+#Footer
+{   
+    width: 100%;
+    background-color: rgb(252, 252, 252);
+    position: fixed;
+    bottom: 0;
+    padding: 1%;
+    text-align: center;
+}
+
+#AdvBar
+{   
+    flex-direction: row;
+    padding-right: 2%;
+    margin: 1%;
+}
+
+#AdvLogo
+{
+    width: 8%;
+    margin-right: auto;
+}
+
+#AdvTitle
+{
+    margin-left: 1%;
+    font-size: larger;
+    color: rgb(224, 69, 69);
+}
+
+#DivLine
+{
+    color: rgb(255, 255, 255);
+    opacity: 50%;
+}
+
+.AdvSearchBars
+{
+    width: 40%;
+    border-radius: 0;
+    border-width: 1px;
+    height: 20px;
+    border-color: rgba(175, 170, 170, 0.301);
+}
+
+#AdvSearchBar1
+{
+    margin-left: 82px;
+}
+
+#AdvSearchBar2
+{
+    margin-left: 10px;
+}
+
+#AdvSearchBar3
+{
+    margin-left: 55px;
+}
+#AdvSearchBar4
+{
+    margin-left: 45px;
+}
+
+#AdvSubmit
+{
+    font-size: 14px;
+    padding: 8px;
+    border: 1px;
+    border-radius: 3px;
+    color: white;
+    margin-left: 44%;
+    background-color: rgb(68, 145, 233);
+}
+
